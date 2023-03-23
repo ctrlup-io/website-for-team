@@ -63,6 +63,10 @@ It helps writing commit message with [`git-cz` CLI](https://github.com/streamich
 
 Thanks to [Commit Lint](https://commitlint.js.org/) it respects [Conventional Changelog Specifications](https://www.conventionalcommits.org/).
 
+#### `lint`
+
+It lints codebase with [ESLint](https://eslint.org/).
+
 ## Deployment
 
 There are two ways to deploy your app to Netlify, you can either link your app to your git repo and have it auto deploy changes to Netlify, or you can deploy your app manually. If you've followed the setup instructions already, all you need to do is run this:
