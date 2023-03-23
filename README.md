@@ -35,7 +35,9 @@ netlify init
 
 #### `dev`
 
-The Remix dev server starts your app in development mode, rebuilding assets on file changes. To start the Remix dev server:
+Starts the Remix dev server.
+
+The Remix dev server starts your app in development mode, rebuilding assets on file changes.
 
 Open up [http://localhost:3000](http://localhost:3000), and you should be ready to go!
 
@@ -49,11 +51,17 @@ Note: When running the Netlify CLI, file changes will rebuild assets, but you wi
 
 #### `build`
 
-Builds your app for production. This command will set process.env.NODE_ENV to production and minify the output for deployment.
+Builds your app for production. This command will set `process.env.NODE_ENV` to production and minify the output for deployment.
 
 #### `typecheck`
 
 Compiles the project.
+
+#### `commit`
+
+It helps writing commit message with [`git-cz` CLI](https://github.com/streamich/git-cz).
+
+Thanks to [Commit Lint](https://commitlint.js.org/) it respects [Conventional Changelog Specifications](https://www.conventionalcommits.org/).
 
 ## Deployment
 
