@@ -5,11 +5,12 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev",
-    "start": "cross-env NODE_ENV=production netlify dev",
-    "typecheck": "tsc",
     "commit": "git-cz",
-    "lint": "eslint --cache ."
+    "dev": "remix dev",
+    "format": "prettier --write .",
+    "lint": "eslint --cache --fix .",
+    "start": "cross-env NODE_ENV=production netlify dev",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@netlify/functions": "^1.3.0",
@@ -17,6 +18,7 @@
     "@remix-run/node": "^1.14.3",
     "@remix-run/react": "^1.14.3",
     "cross-env": "^7.0.3",
+    "isbot": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -32,6 +34,7 @@
     "git-cz": "^4.9.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
+    "sort-package-json": "^2.4.1",
     "typescript": "^4.8.4"
   },
   "engines": {

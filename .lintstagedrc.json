@@ -1,0 +1,4 @@
+{
+  "*.(j|t)s?(x)": ["npm run format", "npm run lint"],
+  "package.json": "sort-package-json"
+}
